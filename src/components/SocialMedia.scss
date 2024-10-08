@@ -1,0 +1,48 @@
+:root {
+    --navbar-height: 100px; /* Adjust this to match the height of your navbar */
+  }
+  
+  .app__container {
+    padding-top: 65px; /* Ensure content doesn't go under the navbar */
+    margin-top: 0; /* Remove additional top margin */
+  }
+  
+  .app__wrapper {
+    padding: 10px; /* Adjust as needed for general padding */
+  }
+  
+  .app__navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: var(--navbar-height);
+    z-index: 1000;
+  }
+  
+  .app__social {
+    position: fixed;
+    top: 50%;
+    left: 20px; /* Adjust this value to move the icons to the left or right */
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column; /* Stack icons vertically */
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    z-index: 1000;
+  }
+  
+  .app__social-icon {
+    margin: 10px 0; /* Add vertical spacing between icons */
+  }
+  
+  .app__social-icon a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .app__social-icon a:hover {
+    color: #0077b5; /* Change color on hover */
+  }
+  
