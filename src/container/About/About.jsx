@@ -31,9 +31,9 @@ const About = () => {
             <p className="p-text paragraph">
               Hi! My name is Grace, a rising junior at New York University studying Applied Psychology at Steinhardt and Computer Science at CAS.
               <br /><br />
-              I enjoy creating functional web applications and I am passionate about continuously improving my skills and portfolio. I am currently exploring back-end development and machine learning as an intern at SmartMate 😊
+              I enjoy creating functional web applications and I am passionate about continuously improving my skills and portfolio. I am currently exploring front-end development as an intern at Eulerity 😊
               <br /><br />
-              I'm open to any Summer and Fall 2024 internship opportunities. Feel free to 
+              I'm open to any Summer 2025 internship opportunities. Feel free to 
               <Link to="/contact"> <strong>reach out</strong></Link>!
             </p>
           </div>

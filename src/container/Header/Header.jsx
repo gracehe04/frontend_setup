@@ -11,7 +11,8 @@ const Header = () => {
   const dynamicTexts = [
     "It's great to see you here 😊",
     "I'm a full-stack developer 💻",
-    "I'm interested in Psychology 🧠",
+    "I'm interested in Psychology (Behavioral, Developmental)🧠",
+    "I love trying new restaurants and matcha places🍵",
     "stay tuned for more updates 🌀"
   ];
   const typingSpeed = 85;
