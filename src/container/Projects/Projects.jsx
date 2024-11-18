@@ -3,9 +3,9 @@ import { AiFillEye, AiFillGithub } from 'react-icons/ai';
 import { motion } from 'framer-motion';
 import { AppWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
-import './Work.scss';
+import './Projects.scss';
 
-const Work = () => {
+const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('All');
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
   const [works, setWorks] = useState([]);
@@ -48,10 +48,10 @@ const Work = () => {
         className="head-text"
         >
           <h2 className='head-text'>
-          My <span>Work</span>
+          My <span>Projects</span>
           </h2>
         </motion.div>
-      <div className="app__work-filter">
+     {/*<div className="app__work-filter">
         {['All', 'Web', 'App'].map((item, index) => (
           <div
             key={index}
@@ -61,7 +61,7 @@ const Work = () => {
             {item}
           </div>
         ))}
-      </div>
+      </div>*/}
 
       <motion.div
         animate={animateCard}
@@ -123,4 +123,4 @@ const Work = () => {
   );
 };
 
-export default (Work);
+export default (Projects);

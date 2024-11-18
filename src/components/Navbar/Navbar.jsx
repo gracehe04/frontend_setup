@@ -17,7 +17,7 @@ const Navbar = () => {
   const menuItems = [
     { name: 'Home', path: '/', hoverText: 'Home' },
     { name: 'About', path: '/about', hoverText: 'About' },
-    { name: 'Work', path: '/work', hoverText: 'Work' },
+    { name: 'Projects', path: '/projects', hoverText: 'Projects' },
     { name: 'Contact', path: '/contact', hoverText: 'Contact' }
   ];
 
