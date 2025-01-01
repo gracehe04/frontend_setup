@@ -51,7 +51,7 @@ const Projects = () => {
           My <span>Projects</span>
           </h2>
         </motion.div>
-     {/*<div className="app__work-filter">
+     <div className="app__work-filter">
         {['All', 'Web', 'App'].map((item, index) => (
           <div
             key={index}
@@ -61,7 +61,7 @@ const Projects = () => {
             {item}
           </div>
         ))}
-      </div>*/}
+      </div>
 
       <motion.div
         animate={animateCard}

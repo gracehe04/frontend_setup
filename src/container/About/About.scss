@@ -8,6 +8,10 @@
     margin: 0;
     padding: 20px;
 }
+.head-text {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
 
 .app__profiles {
     display: flex;
@@ -16,7 +20,6 @@
     align-items: center;
     width: 100%;
     max-width: 800px; 
-    margin: 2rem 0;
 }
 
 .app__profile-item {
@@ -24,7 +27,6 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 2rem 0;
     width: 100%;
 
     @media screen and (min-width: 769px) {
